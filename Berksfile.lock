@@ -1,0 +1,7 @@
+DEPENDENCIES
+  kitchen-docker-demo
+    path: .
+    metadata: true
+
+GRAPH
+  kitchen-docker-demo (0.1.0)
