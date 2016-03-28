@@ -1,7 +1,10 @@
 DEPENDENCIES
+  golang
   kitchen-docker-demo
     path: .
     metadata: true
 
 GRAPH
+  golang (1.7.0)
   kitchen-docker-demo (0.1.0)
+    golang (>= 0.0.0)

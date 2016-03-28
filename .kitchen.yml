@@ -10,6 +10,8 @@ platforms:
 
 suites:
   - name: client
-    run_list:
+    run_list: [
+    "recipe[golang]"
+  ]
       
 
